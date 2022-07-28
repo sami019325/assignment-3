@@ -2,9 +2,6 @@
     background-color: aqua;
 } */
 
-.height {
-    height: 200px;
-}
 
 .btn-bg {
 
@@ -12,4 +9,9 @@
 
     border: 1px solid #E8E8E8;
     border-radius: 5px;
+}
+
+.card-width-native {
+    min-width: 100px;
+    margin: 2px;
 }
