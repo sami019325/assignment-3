@@ -17,7 +17,7 @@
     <header>
         <!-- =================================================== nav bar ================================ -->
 
-        <section class="container">
+        <section class="container position-sticky ">
             <nav class="navbar navbar-expand-lg bg-light my-3 mx-0 px-0">
                 <div class="container-fluid">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -29,7 +29,7 @@
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                         <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                             <li class="nav-item px-3 ">
-                                <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+                                <a class="nav-link active" aria-current="page" href="#home">Home</a>
                             </li>
                             <li class="nav-item px-3">
                                 <a class="nav-link active" aria-current="page" href="#Courses">Courses</a>
@@ -41,7 +41,7 @@
                                 <a class="nav-link active" aria-current="page" href="#Success">Success</a>
                             </li>
                             <li class="nav-item px-3">
-                                <a class="nav-link active" aria-current="page" href="#About">About</a>
+                                <a class="nav-link active" aria-current="page" href="#about">About</a>
                             </li>
                             <li class="nav-item px-3">
                                 <a class="nav-link active " aria-current="page" href="#Register">Register</a>
@@ -59,39 +59,47 @@
 
         <!-- ================================================= heading of this website ===================== -->
 
-        <section class="container height-query">
+        <section class="container height-query" id="home">
 
 
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-indicators d-none">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
                 <div class="carousel-inner">
-                    <div class="carousel-item active">
+                    <div class="carousel-item active " data-bs-interval="2000">
                         <img src="./edTech-website-main/images/cover/cover-1.png" class="d-block w-100"
-                            alt="./edTech-website-main/images/cover/cover-1.png">
+                            alt="Course backgroun image">
                         <div
                             class="carousel-caption h-100 pt-5 d-flex justify-content-center align-items-center flex-column">
                             <h1>Learn whenever you want</h1>
                             <p>Some representative placeholder content for the first slide.</p>
-                            <button class="btn btn-primary fw-bold">Get Started</button>
+                            <button class="btn btn-info text-white fw-bold fw-bold">Get Started</button>
                         </div>
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item" data-bs-interval="2000">
                         <img src="./edTech-website-main/images/cover/cover-2.png" class="d-block w-100"
-                            alt="./edTech-website-main/images/cover/cover-1.png">
+                            alt="Course backgroun image">
                         <div
                             class="carousel-caption h-100 pt-5 d-flex justify-content-center align-items-center flex-column">
                             <h1>Learn wherever you want</h1>
                             <p>Some representative placeholder content for the first slide.</p>
-                            <button class="btn btn-primary fw-bold">Get Started</button>
+                            <button class="btn btn-info text-white fw-bold fw-bold">Get Started</button>
                         </div>
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item" data-bs-interval="2000">
                         <img src="./edTech-website-main/images/cover/cover-3.png" class="d-block w-100"
-                            alt="./edTech-website-main/images/cover/cover-1.png">
+                            alt="Course backgroun image">
                         <div
                             class="carousel-caption h-100 pt-5 d-flex justify-content-center align-items-center flex-column">
                             <h1>You just need an internet connection</h1>
                             <p>Some representative placeholder content for the first slide.</p>
-                            <button class="btn btn-primary fw-bold">Get Started</button>
+                            <button class="btn btn-info text-white fw-bold fw-bold">Get Started</button>
                         </div>
                     </div>
                 </div>
@@ -109,6 +117,171 @@
 
 
 
+        </section>
+    </header>
+
+    <!-- ----------------------------- main section  -------------------------------------- -->
+    <main class="container mt-5">
+        <!-- ==================================== course details ===================== -->
+        <section>
+            <div class="row justify-content-center align-items-center flex-column text-center  ">
+                <div class="col-md-6">
+                    <h2>Discover Our Popular Courses</h2>
+                    <p class="text-secondary">It is a long established fact that a reader will be distracted by the
+                        readable
+                        content of a page when
+                        looking
+                        at its layout.</p>
+                </div>
+            </div>
+            <!-- ================= cards of our course ====== -->
+            <div class="container">
+                <div class="d-flex flex-row justify-content-around flex-wrap g-1">
+                    <!-- =============== -->
+                    <div class="col-lg-5 btn-bg col-md-11  bg-light rounded  row p-0 m-2">
+                        <img class="col-md-4 col-sm-12 img-fluid p-0 m-0"
+                            src="./edTech-website-main/images/course/course-1.png" alt="" srcset="">
+                        <div class="p-3 col-md-8">
+                            <h5>Fundamental Of UI/UX Design</h5>
+                            <small text-secondary>Through this courrcse you will be able to learn the fundamentals of
+                                UX/UI design and this course is completely beginner friendly</small>
+                            <h6 class="text-info">Price : 20$</h6>
+                        </div>
+
+                    </div>
+                    <!-- ================== -->
+                    <div class="col-lg-5 btn-bg col-md-11  bg-light rounded  row p-0 m-2">
+                        <img class="col-md-4 col-sm-12 img-fluid p-0 m-0"
+                            src="./edTech-website-main/images/course/course-2.png" alt="" srcset="">
+                        <div class="p-3 col-md-8">
+                            <h5>Fullstack Web Development</h5>
+                            <small text-secondary>Through this courrcse you will be able to learn the fundamentals of
+                                Fullstack Web Development design and this course is completely beginner friendly</small>
+                            <h6 class="text-info">Price : 30$</h6>
+                        </div>
+
+                    </div>
+                    <!-- ================== -->
+                    <div class="col-lg-5 btn-bg col-md-11  bg-light rounded  row p-0 m-2">
+                        <img class="col-md-4 col-sm-12 img-fluid p-0 m-0"
+                            src="./edTech-website-main/images/course/course-3.png" alt="" srcset="">
+                        <div class="p-3 col-md-8">
+                            <h5>Photography Basic Rules</h5>
+                            <small text-secondary>This courcse will teach you all the steps of Photography Basic Rules
+                                to increase yours efficiency</small>
+                            <h6 class="text-info">Price : 25$</h6>
+                        </div>
+
+                    </div>
+                    <!-- ================== -->
+                    <div class="col-lg-5 btn-bg col-md-11  bg-light rounded  row p-0 m-2">
+                        <img class="col-md-4 col-sm-12 img-fluid p-0 m-0"
+                            src="./edTech-website-main/images/course/course-4.png" alt="" srcset="">
+                        <div class="p-3 col-md-8">
+                            <h5>Javascript Basic to advanced</h5>
+                            <small text-secondary>This courcse will help you to learn Javascript Basic to advanced and
+                                build confident in you. 
+                            </small>
+                            <h6 class="text-info">Price : 20$</h6>
+                        </div>
+
+                    </div>
+                    <!-- ================== -->
+                    <div class="col-lg-5 btn-bg col-md-11  bg-light rounded  row p-0 m-2">
+                        <img class="col-md-4 col-sm-12 img-fluid p-0 m-0"
+                            src="./edTech-website-main/images/course/course-5.png" alt="" srcset="">
+                        <div class="p-3 col-md-8">
+                            <h5>Digital Marketing</h5>
+                            <small text-secondary>This courcse will teach you all the steps of Digital Marketing to
+                                increase yours efficiency</small>
+                            <h6 class="text-info">Price : 20$</h6>
+                        </div>
+
+                    </div>
+                    <!-- ================== -->
+                    <div class="col-lg-5 btn-bg col-md-11  bg-light rounded  row p-0 m-2">
+                        <img class="col-md-4 col-sm-12 img-fluid p-0 m-0"
+                            src="./edTech-website-main/images/course/course-6.png" alt="" srcset="">
+                        <div class="p-3 col-md-8">
+                            <h5>Motion Graphics</h5>
+                            <small text-secondary>It is a complete guidline for becoming a professional Motion Graphics
+                                designer. </small>
+                            <h6 class="text-info">Price : 100$</h6>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="d-flex justify-content-center mt-3">
+                <button class="btn btn-info text-white fw-bold">See All Courses</button>
+            </div>
+        </section>
+        <!-- ===================================================== article section ====================================== -->
+        <article class="row" id="about">
+            <div class=" mb-3 col-md-12 mt-5">
+                <div class="row g-0">
+                    <div class="col-md-5">
+                        <img class="img-fluid" src="./edTech-website-main/images/working.png"
+                            class="img-fluid rounded-start" alt="Picture of a man who is working">
+                    </div>
+                    <div class="col-md-7 p-2">
+                        <div>
+                            <h5>Explore The our Institute</h5>
+                            <p class="text-secondary">Why is digital learning important? Digital learning has become a
+                                part of our
+                                life because it gives us many flaxibilitoies
+                                that traditional institutions cannot provide. </p>
+                            <p class="text-secondary">
+                                We are here with a big goal that will help
+                                you to become a self learner and get advantages in professional life. Start your journey
+                                from now with our 
+                            </p>
+                            <div class="d-inline-flex justify-content-around">
+                                <div class=" p-3">
+                                    <h1>3.2K+</h1>
+                                    <p class="text-secondary">Online Course</p>
+                                </div>
+                                <div class=" p-3">
+                                    <h1>600+</h1>
+                                    <p class="text-secondary">Expert member</p>
+                                </div>
+                                <div class=" p-3">
+                                    <h1>1k+</h1>
+                                    <p class="text-secondary">Rating & Review</p>
+                                </div>
+                            </div>
+                            <button class="btn btn-info text-white fw-bold">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <!-- ================================================================================ register-
+        section================================ -->
+
+        <section class="container">
+            <div class="container bg-info d-flex align-items-center justify-content-around  m-5">
+                <div>
+                    <h1 class="text-white">Ready to join?</h1>
+                    <p></p>
+                </div>
+                <div>
+                    <button class="btn btn-outline-info bg-white fw-bold">Register Now</button>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+    </main>
 
 
 
@@ -123,9 +296,9 @@
 
 
 
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-                crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

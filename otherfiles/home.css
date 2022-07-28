@@ -1,62 +1,15 @@
-body {
+/* body {
     background-color: aqua;
+} */
+
+.height {
+    height: 200px;
 }
 
-.height-query {
-    height: 80vh;
-}
+.btn-bg {
 
-.zindextOfDiv {
-    position: relative;
-    top: -80vh;
-    height: 80vh;
-    background-color: rgb(0, 0, 0);
-    opacity: .5;
-}
+    background: #FFFFFF;
 
-.zindextOfDivDown {
-    position: relative;
-    top: 0px;
-    z-index: -1;
-    height: 80vh;
-    width: 100%;
-}
-
-@media screen and (max-width:576px) {
-    .height-query {
-        height: 30vh;
-    }
-
-    .zindextOfDiv {
-        height: 80vh;
-    }
-
-    .zindextOfDivDown {
-        height: 30vh;
-    }
-}
-
-
-
-
-
-@media screen and (min-width:577px) and (max-width:996px) {
-
-
-    .height-query {
-        height: 30vh;
-    }
-
-
-    .height-query {
-        height: 40vh;
-    }
-
-    .zindextOfDiv {
-        height: 100vh;
-    }
-
-    .zindextOfDivDown {
-        height: 40vh;
-    }
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
 }
