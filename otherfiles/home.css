@@ -15,3 +15,41 @@
     min-width: 100px;
     margin: 2px;
 }
+
+/* carousel-control-prev */
+.prev-btn {
+    position: relative;
+    width: 47px;
+    height: 47px;
+    padding: 4px 0px 3px 0px;
+    left: 0px;
+    display: block;
+    top: 100px;
+    z-index: 1;
+    border: none;
+    border-radius: 30px;
+    background: #E6F6FF;
+    /* transform: rotate(-180deg); */
+
+}
+
+.prev-btn:hover {
+    background: #289BDE;
+
+}
+
+.for-btn {
+    position: relative;
+    width: 47px;
+    height: 47px;
+    padding: 3px 1px 0 3px;
+    right: 0px;
+    display: block;
+    top: 100px;
+    z-index: 1;
+    border: none;
+    border-radius: 30px;
+    background: #289BDE;
+
+
+}
